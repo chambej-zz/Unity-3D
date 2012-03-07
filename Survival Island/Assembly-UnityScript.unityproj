@@ -44,7 +44,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\playerCollisions.js" />
+     <Compile Include="Assets\Scripts\BatteryCollect.js" />
+     <Compile Include="Assets\Scripts\PlayerCollisions.js" />
+     <Compile Include="Assets\Scripts\RotateObject.js" />
+     <Compile Include="Assets\Scripts\TextHints.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
   </ItemGroup>
