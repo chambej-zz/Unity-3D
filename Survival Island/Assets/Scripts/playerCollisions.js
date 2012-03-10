@@ -35,14 +35,23 @@ function Update () {
 	}
 }
 
-/*
 function OnControllerColliderHit(hit : ControllerColliderHit) {
-	if(hit.gameObject.tag == "outpostDoor" && doorIsOpen == false){
-		currentDoor = hit.gameObject;
-		Door(doorOpenSound, true, "dooropen", currentDoor);
+	var crosshairObj : GameObject = GameObject.Find("Crosshair");
+	var crosshair : GUITexture = crosshairObj.GetComponent(GUITexture);
+	if(hit.collider == GameObject.Find("mat").collider) {
+		CoconutThrow.canThrow = true;
+		crosshair.enabled = true;
+		TextHints.textOn = true;
+		TextHints.message = "Knock down all 3 targets at once to win a battery!";
+		GameObject.Find("TextHint GUI").transform.position.y = 0.2;
+		
+	} else {
+		CoconutThrow.canThrow = false;
+		crosshair.enabled = false;
+		TextHints.message = "";
+		GameObject.Find("TextHint GUI").transform.position.y = 0.5;
 	}
 }
-*/
 
 function Door(aClip : AudioClip, openCheck : boolean, animName : String, thisDoor : GameObject) {
 	audio.PlayOneShot(aClip);
