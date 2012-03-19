@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CoconutCollision.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CoconutWin.js">
     <Files>
       <File FileName="Assets\Scripts\CoconutThrow.js" Line="13" Column="43" />
-      <File FileName="Assets\Scripts\PlayerCollisions.js" Line="39" Column="1" />
+      <File FileName="Assets\Scripts\PlayerCollisions.js" Line="51" Column="14" />
       <File FileName="Assets\Scripts\CoconutTidy.js" Line="4" Column="25" />
-      <File FileName="Assets\Scripts\CoconutCollision.js" Line="31" Column="38" />
+      <File FileName="Assets\Scripts\CoconutCollision.js" Line="33" Column="23" />
+      <File FileName="Assets\Scripts\CoconutWin.js" Line="15" Column="108" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
