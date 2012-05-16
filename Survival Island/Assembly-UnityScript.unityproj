@@ -44,11 +44,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Menu\Animator.js" />
+     <Compile Include="Assets\Scripts\BackButtonGUI.js" />
      <Compile Include="Assets\Scripts\BatteryCollect.js" />
      <Compile Include="Assets\Scripts\CoconutCollision.js" />
      <Compile Include="Assets\Scripts\CoconutThrow.js" />
      <Compile Include="Assets\Scripts\CoconutTidy.js" />
      <Compile Include="Assets\Scripts\CoconutWin.js" />
+     <Compile Include="Assets\Scripts\FadeTexture.js" />
+     <Compile Include="Assets\Scripts\MainMenuBtns.js" />
+     <Compile Include="Assets\Scripts\MainMenuGUI2.js" />
      <Compile Include="Assets\Scripts\PlayerCollisions.js" />
      <Compile Include="Assets\Scripts\RotateObject.js" />
      <Compile Include="Assets\Scripts\TextHints.js" />
